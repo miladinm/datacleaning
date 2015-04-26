@@ -1,0 +1,216 @@
+ CODE BOOK
+ 
+ 
+ subject                2
+ 	Subject/person identifier
+ 		1..30
+ 
+ activity                 
+ 	Factor with 6 levels:
+ 		WALKING
+		WALKING_UPSTAIRS
+ 		WALKING_DOWNSTAIRS
+ 		SITTING
+		STANDING
+ 		LAYING
+ 
+ The following variables contain the average values for mean and standard deviation of measurements for 3-axial signals in X, Y and Z direction. All the values are normalised and bounded [-1:1]
+ 
+ tBodyAcc.mean...X 		num
+ 	The mean of time domain body component of acceleration signal in X direction
+ 
+ tBodyAcc.mean...Y		num
+ 	The mean of time domain body component of acceleration signal in Y direction
+ 
+ tBodyAcc.mean...Z       	num
+ 	The mean of time domain body component of acceleration signal in Z direction
+             
+ tGravityAcc.mean...X      	num   
+ 	The mean of time domain gravitational component of acceleration signal in X direction
+        
+ tGravityAcc.mean...Y 		num               
+ 	The mean of time domain gravitational component of acceleration signal in Y direction
+ 	
+ tGravityAcc.mean...Z		num  
+ 	The mean of time domain gravitational component of acceleration signal in Z direction
+ 
+ tBodyAccJerk.mean...X  	num    
+ 	The mean of time domain body Jerk signal based on linear acceleration in X direction
+  
+ tBodyAccJerk.mean...Y  	num             
+ 	The mean of time domain body Jerk signal based on linear acceleration in X direction
+ 
+ tBodyAccJerk.mean...Z          num
+ 	The mean of time domain body Jerk signal based on linear acceleration in X direction
+ 
+ tBodyGyro.mean...X             num
+ 	The mean of time domain body angular velocity signal in X direction
+ 
+ tBodyGyro.mean...Y             num
+ 	The mean of time domain body angular velocity signal in X direction
+ 
+ tBodyGyro.mean...Z             num
+ 	The mean of time domain body angular velocity signal in X direction
+ 
+ tBodyGyroJerk.mean...X         num
+ 	The mean of time domain body Jerk signal based on angular velocity in X direction
+ 
+ tBodyGyroJerk.mean...Y         num
+ 	The mean of time domain body Jerk signal based on angular velocity in X direction
+ 
+ tBodyGyroJerk.mean...Z         num
+ 	The mean of time domain body Jerk signal based on angular velocity in X direction
+ 
+ tBodyAccMag.mean..             num
+ 	The mean magnitude of time domain 3-dimensional body acceleration signal 
+ 
+ tGravityAccMag.mean..          num
+ 	The mean magnitude of time domain 3-dimensional gravitational acceleration signal 
+ 
+ tBodyAccJerkMag.mean..         num 
+ 	The mean magnitude of time domain 3-dimensional body acceleration Jerk signal 
+ 
+ tBodyGyroMag.mean..            num
+ 	The mean magnitude of time domain 3-dimensional body angular velocity signal 
+ 
+ tBodyGyroJerkMag.mean..	num             
+ 	The mean magnitude of time domain 3-dimensional body angular velocity Jerk signal 
+ 
+ fBodyAcc.mean...X              num
+ 	The mean of frequency domain body acceleration signal in X direction
+ 
+ fBodyAcc.mean...Y              num
+ 	The mean of frequency domain body acceleration signal in X direction
+ 
+ fBodyAcc.mean...Z              num
+ 	The mean of frequency domain body acceleration signal in X direction
+ 
+ fBodyAccJerk.mean...X          num
+ 	The mean of frequency domain body Jerk signal based on linear acceleration in X direction
+ 
+ fBodyAccJerk.mean...Y          num
+ 	The mean of frequency domain body Jerk signal based on linear acceleration in X direction
+ 
+ fBodyAccJerk.mean...Z          num
+ 	The mean of frequency domain body Jerk signal based on linear acceleration in X direction
+ 
+ fBodyGyro.mean...X             num
+ 	The mean of frequency domain body angular velocity in X direction
+ 
+ fBodyGyro.mean...Y             num
+ 	The mean of frequency domain body angular velocity in X direction
+ 
+ fBodyGyro.mean...Z             num
+ 	The mean of frequency domain body angular velocity in X direction
+ 
+ fBodyAccMag.mean..             num
+ 	The mean magnitude of frequency domain 3-dimensional body linear acceleration signal 
+ 
+ fBodyBodyAccJerkMag.mean..    	num
+ 	The mean magnitude of frequency domain 3-dimensional body Jerk signal based on linear acceleration
+ 
+ fBodyBodyGyroMag.mean..        num    
+ 	The mean magnitude of frequency domain 3-dimensional body angular velocity signal 
+ 
+ fBodyBodyGyroJerkMag.mean..    num
+ 	The mean magnitude of frequency domain 3-dimensional body Jerk signal based on angular velocity 
+ 
+ tBodyAcc.std...X 		num
+ 	The std of time domain body component of acceleration signal in X direction
+ 
+ tBodyAcc.std...Y		num
+ 	The std of time domain body component of acceleration signal in Y direction
+ 
+ tBodyAcc.std...Z       	num
+ 	The std of time domain body component of acceleration signal in Z direction
+             
+ tGravityAcc.std...X      	num   
+ 	The std of time domain gravitational component of acceleration signal in X direction
+        
+ tGravityAcc.std...Y 		num               
+ 	The std of time domain gravitational component of acceleration signal in Y direction
+ 	
+ tGravityAcc.std...Z		num  
+ 	The std of time domain gravitational component of acceleration signal in Z direction
+ 
+ tBodyAccJerk.std...X  		num    
+ 	The std of time domain body Jerk signal based on linear acceleration in X direction
+  
+ tBodyAccJerk.std...Y  		num             
+ 	The std of time domain body Jerk signal based on linear acceleration in X direction
+ 
+ tBodyAccJerk.std...Z           num
+ 	The std of time domain body Jerk signal based on linear acceleration in X direction
+ 
+ tBodyGyro.std...X              num
+ 	The std of time domain body angular velocity signal in X direction
+ 
+ tBodyGyro.std...Y              num
+ 	The std of time domain body angular velocity signal in X direction
+ 
+ tBodyGyro.std...Z              num
+ 	The std of time domain body angular velocity signal in X direction
+ 
+ tBodyGyroJerk.std...X          num
+ 	The std of time domain body Jerk signal based on angular velocity in X direction
+ 
+ tBodyGyroJerk.std...Y          num
+ 	The std of time domain body Jerk signal based on angular velocity in X direction
+ 
+ tBodyGyroJerk.std...Z          num
+ 	The std of time domain body Jerk signal based on angular velocity in X direction
+ 
+ tBodyAccMag.std..              num
+ 	The std of magnitude of time domain 3-dimensional body acceleration signal 
+ 
+ tGravityAccMag.std..           num
+ 	The std of magnitude of time domain 3-dimensional gravitational acceleration signal 
+ 
+ tBodyAccJerkMag.std..          num 
+ 	The std of magnitude of time domain 3-dimensional body acceleration Jerk signal 
+ 
+ 
+ tBodyGyroMag.std..             num
+ 	The std of magnitude of time domain 3-dimensional body angular velocity signal 
+ 
+ tBodyGyroJerkMag.std..		num     
+ 	The std of magnitude of time domain 3-dimensional body angular velocity Jerk signal 
+ 
+ fBodyAcc.std...X               num
+ 	The std of frequency domain body acceleration signal in X direction
+ 
+ fBodyAcc.std...Y               num
+ 	The std of frequency domain body acceleration signal in X direction
+ 
+ fBodyAcc.std...Z               num
+ 	The std of frequency domain body acceleration signal in X direction
+ 
+ fBodyAccJerk.std...X           num
+ 	The std of frequency domain body Jerk signal based on linear acceleration in X direction
+ 
+ fBodyAccJerk.std...Y           num
+ 	The std of frequency domain body Jerk signal based on linear acceleration in X direction
+ 
+ fBodyAccJerk.std...Z           num
+ 	The std of frequency domain body Jerk signal based on linear acceleration in X direction
+ 
+ fBodyGyro.std...X              num
+ 	The std of frequency domain body angular velocity in X direction
+ 
+ fBodyGyro.std...Y              num
+ 	The std of frequency domain body angular velocity in X direction
+ 
+ fBodyGyro.std...Z              num
+ 	The std of frequency domain body angular velocity in X direction
+ 
+ fBodyAccMag.std..              num
+ 	The std of magnitude of frequency domain 3-dimensional body linear acceleration signal 
+ 
+ fBodyBodyAccJerkMag.std..    	num
+ 	The std of magnitude of frequency domain 3-dimensional body Jerk signal based on linear acceleration
+ 
+ fBodyBodyGyroMag.std..         num    
+ 	The std of magnitude of frequency domain 3-dimensional body angular velocity signal 
+ 
+ fBodyBodyGyroJerkMag.std..     num
+ 	The std of magnitude of frequency domain 3-dimensional body Jerk signal based on angular velocity 

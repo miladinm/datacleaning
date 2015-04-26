@@ -15,8 +15,7 @@ Subject was added and variable renamed in order to keep the column names unique 
 
 Activity reference values were then replaced with appropriate descriptive activity labels and V1 column was renamed to 'activity'.
 
-Once all the variables were added and properly referenced, the datasets were subset to select only activity, subject, mean and std columns as per assignment instructions
-d
+Once all the variables were added and properly referenced, the datasets were subset to select only activity, subject, mean and std columns as per assignment instructions. 
 Then the test and training datasets were added together using rbind method
 
 As a final step, the dataset was grouped by activity and subject and the average of all variables was calculated for each activity and each subject.
